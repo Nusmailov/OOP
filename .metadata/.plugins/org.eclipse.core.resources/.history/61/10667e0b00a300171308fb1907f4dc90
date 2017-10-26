@@ -1,0 +1,14 @@
+package Problem5;
+
+public abstract class Knight extends Piece{
+	Knight(){
+		if(super.check(a, b)) {
+			
+		}
+		else {
+			
+		}
+	
+	}
+		
+}

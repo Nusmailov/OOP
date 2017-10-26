@@ -1,0 +1,8 @@
+package Problem5;
+
+public abstract class Piece {
+	public abstract boolean isLegalMove(Position a, Position b);
+	public boolean check() {
+		
+	}
+}

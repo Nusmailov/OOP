@@ -1,0 +1,23 @@
+package Problem2;
+
+public class Shapes3D extends AbsShapes{
+
+	@Override
+	public double volume() {
+		
+		return 0;
+	}
+
+	@Override
+	public double area() {
+		
+		return 0;
+	}
+
+	public abstract double volume();
+		
+		public abstract double area();
+		
+	
+		
+}

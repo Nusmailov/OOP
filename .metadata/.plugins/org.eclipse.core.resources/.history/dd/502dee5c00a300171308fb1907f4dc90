@@ -1,0 +1,20 @@
+package Problem5;
+
+public abstract class Piece {
+	public abstract boolean isLegalMove(Position a, Position b);
+	public boolean check(Position a, Position b){
+		if(a.x > 0 && a.x < 9 && a.y > 0 && a.y < 9 && b.x > 0 && b.x < 9 && b.y > 0 && b.y < 9){
+			if(a.x == b.x && a.y == b.y){
+				System.out.println("Positions are the same. \n");
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
+		else {
+			System.out.println("It is impossible! This is chess game. \n");
+			return false;
+		}		
+	}
+}

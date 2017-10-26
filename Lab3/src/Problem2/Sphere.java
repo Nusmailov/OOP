@@ -1,0 +1,27 @@
+package Problem2;
+
+public class Sphere extends Shapes {
+	int r;
+	
+	public Sphere(){
+		r=0;
+	}
+	public Sphere(int r_){
+		this.r = r_;
+	}
+	
+	public double volume(){
+		return 4/3*Math.PI*r*r*r;
+	}
+	
+	public double area(){
+		return 4*Math.PI*r*r;
+	}
+	
+	public String toString(){
+		return "\n\nr="+this.r+"\nV="+this.volume()+"\nA="+this.area();
+	}
+
+	
+	
+}

@@ -1,0 +1,11 @@
+package Problem;
+
+public class Crocodile extends Animal{
+	
+	super();
+	super(name,age);
+	super(name);
+	
+	
+
+}

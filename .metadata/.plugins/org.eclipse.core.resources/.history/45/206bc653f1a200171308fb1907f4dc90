@@ -1,0 +1,28 @@
+
+public class Person {
+	private String name;
+	
+	public Person(){
+		name="NoName";
+	}
+	
+	public Person(String name_){
+		this.name = name_;
+	}
+	
+	public void setName(String name_){
+		this.name = name_;
+	}
+	
+	public String getName(){
+		return this.name;
+	}
+	
+	public boolean equals(Person p){
+		return this.name.equals(p.name);
+	}
+	
+	public String toString(){
+		return "Name: "+this.name;
+	}
+}

@@ -1,0 +1,12 @@
+package Problem5;
+
+public class Rock {
+	public boolean isLegalMove( Position a, Position b){
+		if (super.check(a, b)) {
+			return (((Math.abs(a.x - b.x) == 1) && (Math.abs(a.y-b.y) == 2)) || ((Math.abs(a.x-b.x) == 2) && (Math.abs(a.y-b.y) == 1)));
+		}else{
+			System.out.println("It is impossible! Please take coordinates between 1 and 8 as in chess piece");
+			return false;
+		}
+	}
+}

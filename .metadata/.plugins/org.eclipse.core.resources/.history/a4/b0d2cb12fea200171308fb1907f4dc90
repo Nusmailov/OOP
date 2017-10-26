@@ -1,0 +1,5 @@
+package Problem5;
+
+public abstract class King extends Piece{
+	
+}

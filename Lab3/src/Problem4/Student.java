@@ -1,0 +1,19 @@
+package Problem4;
+
+public class Student extends Person{
+	Student() {
+		super();
+	}
+	Student(String name){
+		super(name);
+	}
+	
+	public String toString() {
+		System.out.print("n/Student: ");
+		return super.toString();
+	}
+	
+	
+	
+	
+}

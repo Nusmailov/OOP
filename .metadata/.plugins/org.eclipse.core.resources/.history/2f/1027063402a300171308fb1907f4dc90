@@ -1,0 +1,16 @@
+package Problem5;
+
+public abstract class Knight extends Piece{
+	Knight(){
+		boolean bl = false;
+		boolean isLegalMove( Position a, Position b){
+			if (super.check(a, b)) {
+				(((Math.abs(a.x - b.x) == 1) && (Math.abs(a.y-b.y) == 2)) || ((Math.abs(a.x-b.x)==2) && (Math.abs(a.y-b.y)==1)));
+			}else{
+				System.out.println("It is impossible! Please take coordinates between 1 and 8 as in chess piece");
+				return false;
+			}
+		}
+	}
+		
+}

@@ -1,0 +1,32 @@
+package Problem3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person p = new Person("Don Karleone");
+		Person q = new Person("Don4 Karleone");
+		
+		System.out.println(p);
+		System.out.println(p.equals(q));
+		System.out.println();
+		
+		Employee e = new Employee("Donjuan", 200.2, 2017, "17BD02128");
+		Employee w = new Employee("Donjuana", 200.2, 2017, "17BD02128");
+		
+		System.out.println(e);
+		System.out.println(e.equals(w));
+		System.out.println();
+		
+		
+		Manager m = new Manager("Deny", 151.8, 2015, "15BD01234", 10.4);
+		Manager n = new Manager("Doni", 151.8, 2015, "15BD01234", 10.4);
+		m.addTeamMember(e);
+		m.addTeamMember(w);
+		
+		//n.setName("Deny");
+		System.out.println(m);
+		System.out.println(m.equals(n));
+		System.out.println();
+	}
+
+}

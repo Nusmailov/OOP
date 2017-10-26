@@ -1,0 +1,19 @@
+package Problem5;
+
+public abstract class Knight extends Piece{
+	Knight(){
+		Position a = null;
+		Position b = null;
+		boolean bl= false;
+		if !(super.check(a, b) ) {
+			System.out.println("Error");
+			
+		}
+		else {
+			System.out.println("Error \n");
+			return false;
+		}
+		
+	}
+		
+}

@@ -1,0 +1,12 @@
+package Problem5;
+
+public abstract class Bishop extends Piece{
+	public boolean isLegalMove(Position a, Position b){
+		if (super.check(a, b)) {
+			
+		}else{
+			System.out.println("It is impossible! Please take coordinates between 1 and 8 as in chess piece");
+			return false;
+		}
+	}
+}

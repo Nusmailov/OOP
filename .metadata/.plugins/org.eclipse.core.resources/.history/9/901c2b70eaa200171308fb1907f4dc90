@@ -1,0 +1,17 @@
+package Problem;
+
+public class Crocodile extends Animal{
+	
+	public Crocodile() {
+		super();
+	}
+	public Crocodile(String name) {
+		super(name);
+	}
+	public Crocodile(String name, int age) {
+		super(name,age);
+	}
+	
+	
+
+}

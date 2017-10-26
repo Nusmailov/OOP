@@ -1,0 +1,28 @@
+package Problem5;
+
+public class Main {
+
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+		
+	//		Knight k = new Knight();
+	//		System.out.println(k.isLegalMove(a, b));
+	
+	//		Pawn k = new Pawn();
+	//		System.out.println(k.isLegalMove(a, b));
+		
+	//		King k = new King();
+	//		System.out.println(k.isLegalMove(a, b));
+			
+	//		Rook k = new Rook();
+	//		System.out.println(k.isLegalMove(a, b));
+			
+	//		Queen k = new Queen();
+	//		System.out.println(k.isLegalMove(a, b));
+			
+	//		Bishop k = new Bishop();
+	//		System.out.println(k.isLegalMove(a, b));
+
+	}
+
+}
